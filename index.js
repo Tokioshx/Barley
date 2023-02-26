@@ -29,6 +29,5 @@ client.config = require('./handler/config');
 
 require('./handler')(client);
 require('dotenv').config();
-require('./website/index');
 
 client.login(process.env.token);
